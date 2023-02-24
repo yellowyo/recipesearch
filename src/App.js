@@ -5,9 +5,9 @@ import MyRecipesComponent from './MyRecipesComponent';
 
 function App() {
 
-  const myID = '20d9a58b';
-  const myKey = 'f766421f20f280ff0f8c2615c14156cf';
-  const query = 'avocado'
+//   const myID = '20d9a58b';
+//   const myKey = 'f766421f20f280ff0f8c2615c14156cf';
+//   const query = 'avocado'
 
   const [mySearch, setMySearch] = useState('');
   const [myRecipes, setMyRecipes] = useState([]); // это состояния у нас отвечает за рецепты, мы ввели состояние myRecipes и приравняли его к пустому массиву, тк рецептов много
